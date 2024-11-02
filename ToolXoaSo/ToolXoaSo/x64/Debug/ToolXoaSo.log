@@ -1,0 +1,11 @@
+﻿  Tool.cpp
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(11,16): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(11,16): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(20,16): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(20,16): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(41,15): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(41,15): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(41,15): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(41,15): warning C4566: character represented by universal-character-name '\u01B0' cannot be represented in the current code page (1252)
+D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\Tool.cpp(41,15): warning C4566: character represented by universal-character-name '\u1EE3' cannot be represented in the current code page (1252)
+  ToolXoaSo.vcxproj -> D:\UIT\ToolSelf\ToolXoaSo\ToolXoaSo\x64\Debug\ToolXoaSo.exe

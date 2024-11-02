@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{165BBA38-53AF-400A-945E-D7CE14D5EC53}|test\\test.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\test\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{165BBA38-53AF-400A-945E-D7CE14D5EC53}|test\\test.vcxproj|solutionrelative:test\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9426CB-4B37-455E-AD99-F6B4C6CEEC92}|de4prob1string\\de4prob1string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob1string\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F9426CB-4B37-455E-AD99-F6B4C6CEEC92}|de4prob1string\\de4prob1string.vcxproj|solutionrelative:de4prob1string\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A3213D-2F6D-4628-AB61-CBD0F057984A}|de4prob2string\\de4prob2string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob2string\\string2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1A3213D-2F6D-4628-AB61-CBD0F057984A}|de4prob2string\\de4prob2string.vcxproj|solutionrelative:de4prob2string\\string2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63DFBCCF-06C6-4B23-8A2E-BFC925CD0F67}|de4prob11string\\de4prob11string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob11string\\demkituu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63DFBCCF-06C6-4B23-8A2E-BFC925CD0F67}|de4prob11string\\de4prob11string.vcxproj|solutionrelative:de4prob11string\\demkituu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFE6D8C-3832-45D7-AFC1-809779E791A4}|de4prob5string\\de4prob5string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob5string\\demkitu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFFE6D8C-3832-45D7-AFC1-809779E791A4}|de4prob5string\\de4prob5string.vcxproj|solutionrelative:de4prob5string\\demkitu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605754CC-40B7-4EAA-95DF-73F7C0E66E8B}|de4prob6string\\de4prob6string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob6string\\uplow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{605754CC-40B7-4EAA-95DF-73F7C0E66E8B}|de4prob6string\\de4prob6string.vcxproj|solutionrelative:de4prob6string\\uplow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7FF918-D9C3-4C21-AB50-1906D0902768}|de4prob3string\\de4prob3string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob3string\\daochuoi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A7FF918-D9C3-4C21-AB50-1906D0902768}|de4prob3string\\de4prob3string.vcxproj|solutionrelative:de4prob3string\\daochuoi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A58FB212-2A84-4D49-818F-E6323BC2B119}|de4prob4string\\de4prob4string.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob4string\\daokitu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A58FB212-2A84-4D49-818F-E6323BC2B119}|de4prob4string\\de4prob4string.vcxproj|solutionrelative:de4prob4string\\daokitu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C22DB8-ABDD-4ED1-A51F-3260F9E66FE4}|de3prob1tramga\\de3prob1tramga.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob1tramga\\tramga.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42C22DB8-ABDD-4ED1-A51F-3260F9E66FE4}|de3prob1tramga\\de3prob1tramga.vcxproj|solutionrelative:de3prob1tramga\\tramga.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FF4743-4C8A-4F3D-83C8-3510DC61EED0}|de3prob3mahoa\\de3prob3mahoa.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob3mahoa\\mahoa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{64FF4743-4C8A-4F3D-83C8-3510DC61EED0}|de3prob3mahoa\\de3prob3mahoa.vcxproj|solutionrelative:de3prob3mahoa\\mahoa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600076D8-A37A-44D9-B552-8D5BF2E41127}|de3prob2loto\\de3prob2loto.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob2loto\\loto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{600076D8-A37A-44D9-B552-8D5BF2E41127}|de3prob2loto\\de3prob2loto.vcxproj|solutionrelative:de3prob2loto\\loto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABADAEA-8F56-439F-BE19-10329F3EF3BC}|..\\de1.prob1.flappybird\\de1.prob1.flappybird.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\de1.prob1.flappybird\\prob1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5D01D5-8EC8-4867-9C1A-FD5CEDE60F42}|de2prob1thunghang\\de2prob1thunghang.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob1thunghang\\prob1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C5D01D5-8EC8-4867-9C1A-FD5CEDE60F42}|de2prob1thunghang\\de2prob1thunghang.vcxproj|solutionrelative:de2prob1thunghang\\prob1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B5ADC5-2523-4133-945A-4C736AC68AD1}|de1prob2catbanh\\de1prob2catbanh.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de1prob2catbanh\\catbanh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12B5ADC5-2523-4133-945A-4C736AC68AD1}|de1prob2catbanh\\de1prob2catbanh.vcxproj|solutionrelative:de1prob2catbanh\\catbanh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475F90C-BD47-4371-AFE3-BB5352C8988C}|de2prob2bieuthuc\\de2prob2bieuthuc.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob2bieuthuc\\prob2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1475F90C-BD47-4371-AFE3-BB5352C8988C}|de2prob2bieuthuc\\de2prob2bieuthuc.vcxproj|solutionrelative:de2prob2bieuthuc\\prob2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DA7C3A-6704-47BB-B486-B9884AACB2F3}|de2prob3dengan\\de2prob3dengan.vcxproj|D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob3dengan\\prob3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A0DA7C3A-6704-47BB-B486-B9884AACB2F3}|de2prob3dengan\\de2prob3dengan.vcxproj|solutionrelative:de2prob3dengan\\prob3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\test\\test.c",
+              "RelativeDocumentMoniker": "test\\test.c",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\test\\test.c",
+              "RelativeToolTip": "test\\test.c",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-02-25T09:30:39.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a5174402-226b-48da-aa5c-91376ed45871}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "demkituu.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob11string\\demkituu.cpp",
+              "RelativeDocumentMoniker": "de4prob11string\\demkituu.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob11string\\demkituu.cpp",
+              "RelativeToolTip": "de4prob11string\\demkituu.cpp",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAmwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-11T09:03:13.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "uplow.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob6string\\uplow.cpp",
+              "RelativeDocumentMoniker": "de4prob6string\\uplow.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob6string\\uplow.cpp",
+              "RelativeToolTip": "de4prob6string\\uplow.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-11T08:20:08.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "demkitu.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob5string\\demkitu.cpp",
+              "RelativeDocumentMoniker": "de4prob5string\\demkitu.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob5string\\demkitu.cpp",
+              "RelativeToolTip": "de4prob5string\\demkitu.cpp",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAmwGQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-11T07:44:54.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "daokitu.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob4string\\daokitu.cpp",
+              "RelativeDocumentMoniker": "de4prob4string\\daokitu.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob4string\\daokitu.cpp",
+              "RelativeToolTip": "de4prob4string\\daokitu.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-11T07:13:57.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "daochuoi.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob3string\\daochuoi.cpp",
+              "RelativeDocumentMoniker": "de4prob3string\\daochuoi.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob3string\\daochuoi.cpp",
+              "RelativeToolTip": "de4prob3string\\daochuoi.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-11T02:31:48.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "string2.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob2string\\string2.cpp",
+              "RelativeDocumentMoniker": "de4prob2string\\string2.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob2string\\string2.cpp",
+              "RelativeToolTip": "de4prob2string\\string2.cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-10T14:46:25.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "string.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob1string\\string.cpp",
+              "RelativeDocumentMoniker": "de4prob1string\\string.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de4prob1string\\string.cpp",
+              "RelativeToolTip": "de4prob1string\\string.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-10T13:47:19.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "mahoa.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob3mahoa\\mahoa.cpp",
+              "RelativeDocumentMoniker": "de3prob3mahoa\\mahoa.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob3mahoa\\mahoa.cpp",
+              "RelativeToolTip": "de3prob3mahoa\\mahoa.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-10T05:30:53.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "loto.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob2loto\\loto.cpp",
+              "RelativeDocumentMoniker": "de3prob2loto\\loto.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob2loto\\loto.cpp",
+              "RelativeToolTip": "de3prob2loto\\loto.cpp",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwCkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-10T05:12:20.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tramga.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob1tramga\\tramga.cpp",
+              "RelativeDocumentMoniker": "de3prob1tramga\\tramga.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de3prob1tramga\\tramga.cpp",
+              "RelativeToolTip": "de3prob1tramga\\tramga.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-10T03:21:29.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "prob3.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob3dengan\\prob3.cpp",
+              "RelativeDocumentMoniker": "de2prob3dengan\\prob3.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob3dengan\\prob3.cpp",
+              "RelativeToolTip": "de2prob3dengan\\prob3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-09T04:41:50.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "prob2.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob2bieuthuc\\prob2.cpp",
+              "RelativeDocumentMoniker": "de2prob2bieuthuc\\prob2.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob2bieuthuc\\prob2.cpp",
+              "RelativeToolTip": "de2prob2bieuthuc\\prob2.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-09T04:28:12.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "prob1.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob1thunghang\\prob1.cpp",
+              "RelativeDocumentMoniker": "de2prob1thunghang\\prob1.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de2prob1thunghang\\prob1.cpp",
+              "RelativeToolTip": "de2prob1thunghang\\prob1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-09T04:12:59.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "catbanh.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de1prob2catbanh\\catbanh.cpp",
+              "RelativeDocumentMoniker": "de1prob2catbanh\\catbanh.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\OnTap\\de1prob2catbanh\\catbanh.cpp",
+              "RelativeToolTip": "de1prob2catbanh\\catbanh.cpp",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-09T03:16:49.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "prob1.cpp",
+              "DocumentMoniker": "D:\\UIT\\ToolSelf\\ToolXoaSo\\de1.prob1.flappybird\\prob1.cpp",
+              "RelativeDocumentMoniker": "..\\de1.prob1.flappybird\\prob1.cpp",
+              "ToolTip": "D:\\UIT\\ToolSelf\\ToolXoaSo\\de1.prob1.flappybird\\prob1.cpp",
+              "RelativeToolTip": "..\\de1.prob1.flappybird\\prob1.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-08T13:20:30.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

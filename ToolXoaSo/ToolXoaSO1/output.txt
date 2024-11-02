@@ -1,0 +1,196 @@
+02317. float NhoNhat(float [],int);
+02318. float NhoNhat(float a[],int n)
+02319. {
+02320. if(n==1)
+02321. return a[0];
+02322. float lc = NhoNhat(a,n-1);
+02323. if(a[n-1]<lc)
+02324. lc = a[n-1];
+02325. return lc;
+02326. }
+02357. void TimDoan(float [],int,float&,float&);
+02358. void TimDoan(float a[],int n,float&x,float&y)
+02359. {
+02360. if(n==1)
+02361. {
+02362. x = a[0];
+02363. y = a[0];
+02364. return;
+02365. }
+02366. TimDoan(a,n-1,x,y);
+02367. if(a[n-1] < x)
+02368. x = a[n-1];
+02369. if(a[n-1] > y)
+02370. y = a[n-1];
+02371. }
+02406. float DauTien(float [],int);
+02407. float DauTien(float a[],int n)
+02408. {
+02409. if(n==0)
+02410. return 0;
+02411. float lc = DauTien(a,n-1);
+02412. if(lc!=0)
+02413. return lc;
+02414. if(a[n-1]>2003)
+02415. return a[n-1];
+02416. return 0;
+02417. }
+02451. float DuongCuoi(float[],int);
+02452. float DuongCuoi(float a[],int n)
+02453. {
+02454. if(n==0)
+02455. return -1;
+02456. if(a[n-1]>0)
+02457. return a[n-1];
+02458. return DuongCuoi(a,n-1);
+02459. }
+02493. int HoanThienDau(int [],int);
+02494. int HoanThienDau(int a[],int n)
+02495. {
+02496. if(n==0)
+02497. return -1;
+02498. int lc = HoanThienDau(a,n-1);
+02499. if(lc!=-1)
+02500. return lc;
+02501. if(ktHoanThien(a[n-1]))
+02502. return a[n-1];
+02503. return -1;
+02504. }
+02541. int NguyenToCuoi(int [],int);
+02542. int NguyenToCuoi(int a[],int n)
+02543. {
+02544. if(n==0)
+02545. return -1;
+02546. if(ktNguyenTo(a[n-1]))
+02547. return a[n-1];
+02548. return NguyenToCuoi(a,n-1);
+02549. }
+02580. float DuongNhoNhat(float [],int);
+02581. float DuongNhoNhat(float a[],int n)
+02582. {
+02583. if(n==0)
+02584. return 0;
+02585. float lc = DuongNhoNhat(a,n-1);
+02586. if(a[n-1]<=0)
+02587. return lc;
+02588. if(lc==0)
+02589. return a[n-1];
+02590. if(a[n-1] < lc)
+02591. lc = a[n-1];
+02592. return lc;
+02593. }
+02636. int TimGiaTri(int [],int);
+02637. int TimGiaTri(int a[],int n)
+02638. {
+02639. if(n==0)
+02640. return -1;
+02641. int lc = TimGiaTri(a,n-1);
+02642. if(!ktHoanThien(a[n-1]))
+02643. return lc;
+02644. if(lc==-1)
+02645. return a[n-1];
+02646. if(a[n-1] < lc)
+02647. lc = a[n-1];
+02648. return lc;
+02649. }
+02692. int TimGiaTri(int [],int);
+02693. int TimGiaTri(int a[],int n)
+02694. {
+02695. if(n==0)
+02696. return 0;
+02697. int lc = TimGiaTri(a,n-1);
+02698. if(!ktDang2m(a[n-1]))
+02699. return lc;
+02700. if(lc==0)
+02701. return a[n-1];
+02702. if(a[n-1] > lc)
+02703. lc = a[n-1];
+02704. return lc;
+02705. }
+02767. int ktKhong(int [],int);
+02768. int ktKhong(int a[],int n)
+02769. {
+02770. if(n==0)
+02771. return 0;
+02772. if(a[n-1]==0)
+02773. return 1;
+02774. return ktKhong(a,n-1);
+02775. }
+02803. int ktTinhChat(int [],int);
+02804. int ktTinhChat(int a[],int n)
+02805. {
+02806. if(n==0)
+02807. return 1;
+02808. if(ktHoanThien(a[n-1]) && a[n-1]>256)
+02809. return 0;
+02810. return ktTinhChat(a,n-1);
+02811. }
+02856. int ktGiam(int [],int);
+02857. int ktGiam(int a[],int n)
+02858. {
+02859. if(n==0)
+02860. return 0;
+02861. if(n==1)
+02862. return 1;
+02863. if((a[n-2]>=a[n-1]) && ktGiam(a,n-1)==1)
+02864. return 1;
+02865. return 0;
+02866. }
+02914. void XayDung(int [],int,int [],int&);
+02915. void XayDung(int a[],int n, int b[],int &k)
+02916. {
+02917. if(n==0)
+02918. {
+02919. k = 0;
+02920. return;
+02921. }
+02922. XayDung(a,n-1,b,k);
+02923. if(ktNguyenTo(a[n-1]))
+02924. b[k++] = a[n-1];
+02925. }
+02976. void NguyenToTang(int [],int);
+02977. void NguyenToTang(int a[],int n)
+02978. {
+02979. if(n==1)
+02980. return;
+02981. for(int i=0;i<=n-2;i++)
+02982. if(ktNguyenTo(a[i]) &&
+02983. ktNguyenTo(a[n-1]) &&
+02984. a[i]>a[n-1])
+02985. HoanVi(a[i],a[n-1]);
+02986. NguyenToTang(a,n-1);
+02987. }
+03024. void DuongTangAmGiam(float [],int);
+03025. void DuongTangAmGiam(float a[],int n)
+03026. {
+03027. if(n==1)
+03028. return;
+03029. for(int i=0;i<=n-2;i++)
+03030. {
+03031. if(a[i]>0 && a[n-1]>0 && a[i]>a[n-1])
+03032. HoanVi(a[i],a[n-1]);
+03033. if(a[i]<0 && a[n-1]<0 && a[i]<a[n-1])
+03034. HoanVi(a[i],a[n-1]);
+03035. }
+03036. DuongTangAmGiam(a,n-1);
+03037. }
+03090. void ThemBaoToan(float [],int&,float);
+03091. void ThemBaoToan(float a[],int &n,float x)
+03092. {
+03093. if(n==0)
+03094. {
+03095. a[0] = x;
+03096. n++;
+03097. return;
+03098. }
+03099. if(x >= a[n-1])
+03100. {
+03101. a[n] = x;
+03102. n++;
+03103. return;
+03104. }
+03105. a[n] = a[n-1];
+03106. n--;
+03107. ThemBaoToan(a,n,x);
+03108. n++;
+03109. }

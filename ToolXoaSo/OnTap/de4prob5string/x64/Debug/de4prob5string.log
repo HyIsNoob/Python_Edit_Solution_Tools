@@ -1,0 +1,3 @@
+﻿  demkitu.cpp
+D:\UIT\ToolSelf\ToolXoaSo\OnTap\de4prob5string\demkitu.cpp(110): warning C4715: 'myStrcmp': not all control paths return a value
+  de4prob5string.vcxproj -> D:\UIT\ToolSelf\ToolXoaSo\OnTap\x64\Debug\de4prob5string.exe

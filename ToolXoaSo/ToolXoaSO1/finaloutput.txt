@@ -1,0 +1,196 @@
+ float NhoNhat(float [],int);
+ float NhoNhat(float a[],int n)
+ {
+ if(n==1)
+ return a[0];
+ float lc = NhoNhat(a,n-1);
+ if(a[n-1]<lc)
+ lc = a[n-1];
+ return lc;
+ }
+ void TimDoan(float [],int,float&,float&);
+ void TimDoan(float a[],int n,float&x,float&y)
+ {
+ if(n==1)
+ {
+ x = a[0];
+ y = a[0];
+ return;
+ }
+ TimDoan(a,n-1,x,y);
+ if(a[n-1] < x)
+ x = a[n-1];
+ if(a[n-1] > y)
+ y = a[n-1];
+ }
+ float DauTien(float [],int);
+ float DauTien(float a[],int n)
+ {
+ if(n==0)
+ return 0;
+ float lc = DauTien(a,n-1);
+ if(lc!=0)
+ return lc;
+ if(a[n-1]>2003)
+ return a[n-1];
+ return 0;
+ }
+ float DuongCuoi(float[],int);
+ float DuongCuoi(float a[],int n)
+ {
+ if(n==0)
+ return -1;
+ if(a[n-1]>0)
+ return a[n-1];
+ return DuongCuoi(a,n-1);
+ }
+ int HoanThienDau(int [],int);
+ int HoanThienDau(int a[],int n)
+ {
+ if(n==0)
+ return -1;
+ int lc = HoanThienDau(a,n-1);
+ if(lc!=-1)
+ return lc;
+ if(ktHoanThien(a[n-1]))
+ return a[n-1];
+ return -1;
+ }
+ int NguyenToCuoi(int [],int);
+ int NguyenToCuoi(int a[],int n)
+ {
+ if(n==0)
+ return -1;
+ if(ktNguyenTo(a[n-1]))
+ return a[n-1];
+ return NguyenToCuoi(a,n-1);
+ }
+ float DuongNhoNhat(float [],int);
+ float DuongNhoNhat(float a[],int n)
+ {
+ if(n==0)
+ return 0;
+ float lc = DuongNhoNhat(a,n-1);
+ if(a[n-1]<=0)
+ return lc;
+ if(lc==0)
+ return a[n-1];
+ if(a[n-1] < lc)
+ lc = a[n-1];
+ return lc;
+ }
+ int TimGiaTri(int [],int);
+ int TimGiaTri(int a[],int n)
+ {
+ if(n==0)
+ return -1;
+ int lc = TimGiaTri(a,n-1);
+ if(!ktHoanThien(a[n-1]))
+ return lc;
+ if(lc==-1)
+ return a[n-1];
+ if(a[n-1] < lc)
+ lc = a[n-1];
+ return lc;
+ }
+ int TimGiaTri(int [],int);
+ int TimGiaTri(int a[],int n)
+ {
+ if(n==0)
+ return 0;
+ int lc = TimGiaTri(a,n-1);
+ if(!ktDang2m(a[n-1]))
+ return lc;
+ if(lc==0)
+ return a[n-1];
+ if(a[n-1] > lc)
+ lc = a[n-1];
+ return lc;
+ }
+ int ktKhong(int [],int);
+ int ktKhong(int a[],int n)
+ {
+ if(n==0)
+ return 0;
+ if(a[n-1]==0)
+ return 1;
+ return ktKhong(a,n-1);
+ }
+ int ktTinhChat(int [],int);
+ int ktTinhChat(int a[],int n)
+ {
+ if(n==0)
+ return 1;
+ if(ktHoanThien(a[n-1]) && a[n-1]>256)
+ return 0;
+ return ktTinhChat(a,n-1);
+ }
+ int ktGiam(int [],int);
+ int ktGiam(int a[],int n)
+ {
+ if(n==0)
+ return 0;
+ if(n==1)
+ return 1;
+ if((a[n-2]>=a[n-1]) && ktGiam(a,n-1)==1)
+ return 1;
+ return 0;
+ }
+ void XayDung(int [],int,int [],int&);
+ void XayDung(int a[],int n, int b[],int &k)
+ {
+ if(n==0)
+ {
+ k = 0;
+ return;
+ }
+ XayDung(a,n-1,b,k);
+ if(ktNguyenTo(a[n-1]))
+ b[k++] = a[n-1];
+ }
+ void NguyenToTang(int [],int);
+ void NguyenToTang(int a[],int n)
+ {
+ if(n==1)
+ return;
+ for(int i=0;i<=n-2;i++)
+ if(ktNguyenTo(a[i]) &&
+ ktNguyenTo(a[n-1]) &&
+ a[i]>a[n-1])
+ HoanVi(a[i],a[n-1]);
+ NguyenToTang(a,n-1);
+ }
+ void DuongTangAmGiam(float [],int);
+ void DuongTangAmGiam(float a[],int n)
+ {
+ if(n==1)
+ return;
+ for(int i=0;i<=n-2;i++)
+ {
+ if(a[i]>0 && a[n-1]>0 && a[i]>a[n-1])
+ HoanVi(a[i],a[n-1]);
+ if(a[i]<0 && a[n-1]<0 && a[i]<a[n-1])
+ HoanVi(a[i],a[n-1]);
+ }
+ DuongTangAmGiam(a,n-1);
+ }
+ void ThemBaoToan(float [],int&,float);
+ void ThemBaoToan(float a[],int &n,float x)
+ {
+ if(n==0)
+ {
+ a[0] = x;
+ n++;
+ return;
+ }
+ if(x >= a[n-1])
+ {
+ a[n] = x;
+ n++;
+ return;
+ }
+ a[n] = a[n-1];
+ n--;
+ ThemBaoToan(a,n,x);
+ n++;
+ }

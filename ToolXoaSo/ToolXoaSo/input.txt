@@ -1,0 +1,12 @@
+02249. int ChanCuoi(int [],int);
+− Định nghĩa hàm đệ quy.
+02250. int ChanCuoi(int a[],int n)
+02251. {
+02252. if(n==0)
+02253. return -1;
+02254. if(a[n-1]%2==0)
+02255. return a[n-1];
+02256. return ChanCuoi(a,n-1);
+Đệ quy tuyến tính trên mảng một chiều
+104
+02257. }
